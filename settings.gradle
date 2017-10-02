@@ -1,0 +1,4 @@
+rootProject.name = 'cdi-bundle-example'
+
+include 'cdi-bundle-example-api'
+include 'cdi-bundle-example-server'

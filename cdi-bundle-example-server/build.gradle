@@ -1,0 +1,21 @@
+
+dependencies {
+	compile "com.cognodyne.dw:cdi-bundle:$cdiBundleVersion"
+}
+
+distribution {
+    serviceName 'cdi-bundle-example-server'
+    serviceGroup 'com.cognodyne.dw.cdi.example'
+    mainClass 'com.cognodyne.dw.cdi.example.ExampleServer'
+    args 'server', 'var/conf/server.yml'
+    env 'KEY1': 'value1', 'KEY2': 'value1'
+    javaHome '/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home'
+    manifestExtensions 'KEY3': 'value2'
+}
+
+task copyMetaInfToClasses (type: Copy) {
+	dependsOn 'classes'
+	from 'src/main/resources'
+	into 'build/classes/java/main'
+}
+//run.dependsOn 'copyMetaInfToClasses'

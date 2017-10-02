@@ -1,0 +1,5 @@
+INFO   [00:04:17.751] [Thread-1] o.j.w.Bootstrap -  WELD-ENV-002001: Weld SE container 0fd43226-b0a8-4cc3-b6fb-0e708d3a3bd1 shut down 
+INFO   [00:04:17.757] [Thread-13] o.e.j.s.AbstractConnector -  Stopped application@17043b04{HTTP/1.1,[http/1.1]}{0.0.0.0:8080} 
+INFO   [00:04:17.758] [Thread-13] o.e.j.s.AbstractConnector -  Stopped admin@511f5b1d{HTTP/1.1,[http/1.1]}{0.0.0.0:8081} 
+INFO   [00:04:17.760] [Thread-13] o.e.j.s.h.ContextHandler -  Stopped i.d.j.MutableServletContextHandler@1ecf0ac6{/,null,UNAVAILABLE} 
+INFO   [00:04:17.774] [Thread-13] o.e.j.s.h.ContextHandler -  Stopped i.d.j.MutableServletContextHandler@d25e878{/,null,UNAVAILABLE} 
