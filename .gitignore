@@ -3,4 +3,4 @@
 .gradle/
 .settings/
 build/
-var/log/
+cdi-bundle-example-server/var/log/
