@@ -18,4 +18,4 @@ task copyMetaInfToClasses (type: Copy) {
 	from 'src/main/resources'
 	into 'build/classes/java/main'
 }
-//run.dependsOn 'copyMetaInfToClasses'
+run.dependsOn 'copyMetaInfToClasses'

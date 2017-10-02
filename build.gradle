@@ -2,7 +2,6 @@ buildscript {
     repositories {
     		jcenter()
         	maven { url 'http://palantir.bintray.com/releases' }
-        	maven { url 'https://dl.bintray.com/cognodyne/maven' }
         	dependencies {
         		classpath 'com.palantir.sls-packaging:gradle-sls-packaging:2.7.0'
     		}

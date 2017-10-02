@@ -4,11 +4,9 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 repositories {
-	mavenLocal()
+//	mavenLocal()
     	jcenter()
-	maven {
-		url "https://dl.bintray.com/cognodyne/maven"
-	}
+	maven { url 'https://dl.bintray.com/cognodyne/maven' }
 }
 
 def gitVersion = {
